@@ -3,11 +3,11 @@ import { useEffect, useState } from 'react';
 import SectionAbout from './section/SectionAbout';
 // import SectionMain from "./section/SectionMain";
 import SectionDevelop from './section/SectionDevelop';
-// import Animation from "./section/Animation";
-import SectionProject from './section/SectionProject';
+import Animation from './section/Animation';
+// import SectionProject from './section/SectionProject';
 
 import SectionSkill from './section/SectionSkill';
-import SectionProfile from './section/SectionProfile';
+// import SectionProfile from './section/SectionProfile';
 import SectionSlide from './section/SectionSlide';
 function Main() {
 	const [ScrollY, setScrollY] = useState(0);
@@ -54,9 +54,9 @@ function Main() {
 			{/* <SectionSkills /> */}
 			<SectionAbout />
 			<SectionDevelop />
-			<SectionProfile />
+			{/* <SectionProfile /> */}
 
-			{/* <Animation /> */}
+			<Animation />
 			{/* <SectionDevelop /> */}
 			{/* <SectionProject /> */}
 			<SectionSlide />
